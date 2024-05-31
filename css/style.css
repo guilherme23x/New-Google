@@ -53,32 +53,39 @@ select:hover {
 }
 
 .icones_google {
-  width: 20%;
-  align-items: center;
+  width: 15%;
+  height: 10vh;
+  border-radius: 20px;
+  justify-content: space-between;
   display: flex;
-  gap: 20px;
-  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
 }
 
-.icones_google i {
-  font-size: 18px;
-  border-radius: 100%;
-  padding: 11.5px;
+.email_icone {
+  width: 50%;
   background-color: #e1e5e8;
+  padding: 10px;
+  display: flex;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
   transition: 1s;
-  color: black;
 }
 
 .botao_menu {
-  width: 40px;
-  transition: 1s;
-  padding: 10px;
+  width: 100%;
+  align-items: center;
   background-color: #e1e5e8;
-  border-radius: 100%;
+  padding: 10px;
+  display: flex;
+  border-radius: 50%;
+  transition: 1s;
 }
 
 .botao_menu:hover,
-.icones_google i:hover {
+.email_icone:hover {
   transform: translateY(-3px);
 }
 
@@ -87,7 +94,7 @@ svg:hover .tooltip {
 }
 
 .icone_perfil {
-  width: 50%;
+  width: 100%;
   background-color: #e1e5e8;
   cursor: pointer;
   border-radius: 100%;
@@ -170,7 +177,7 @@ svg:hover .tooltip {
   border: none;
   outline-width: 0;
   padding: 5px;
-  width: 100%;
+  width: 150%;
 }
 
 .icones_categoria {
@@ -189,6 +196,13 @@ svg:hover .tooltip {
   background-color: #e1e5e8;
   transition: 1s;
   color: black;
+  transition: 1s;
+}
+
+.icones_categoria i:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 14px 18px 0px rgba(0, 0, 0, 0.247),
+    -11px -8px 16px 0px rgb(255, 255, 255);
 }
 
 /* Rodapé */
