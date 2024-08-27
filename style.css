@@ -195,7 +195,7 @@ footer {
     position: absolute;
     top: 70%;
     right: 5%;
-    border-radius: 2.4rem;
+    border-radius: 1.6rem;
     border: 1rem solid white;
     box-shadow: var(--sombra);
     align-items: center;
@@ -203,7 +203,22 @@ footer {
     padding: 1rem;
     gap: 1rem;
     background-color: var(--claroFundo);
+
+
+    &::-webkit-scrollbar{
+      width: .8rem;
+      border-radius: .7rem;
+      background-color: #ffffff8c;
+    }
+
+    &::-webkit-scrollbar-thumb{
+      width: .8rem;
+      background-color: #c5c5c59f;
+      border-radius: .7rem;
+    }
   }
+
+
 
   img {
     border-radius: 0;
